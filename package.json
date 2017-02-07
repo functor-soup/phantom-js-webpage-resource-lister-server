@@ -1,0 +1,17 @@
+{
+  "name": "web-resource-call-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony-async-await server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phantom": "^4.0.0",
+    "restify": "^4.3.0",
+    "restify-plugins": "^1.5.1"
+  }
+}
