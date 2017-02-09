@@ -35,7 +35,7 @@ server.post('/give', function (req, res, next) {
   };
 
   requestedUrls(req.body.name)
-     .then(x => res.send(JSON.stringify({"data":x})))
+     .then(x => res.send({"data":x}))
      .catch(x => res.send(400))
 
 });
